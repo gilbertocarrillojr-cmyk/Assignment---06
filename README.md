@@ -2,8 +2,6 @@
 
 ## Analysis Plan
 
-This project refactors our Milestone 01 kidney-disease screening workflow and performs descriptive statistical analysis and visualizations on a simulated patient cohort:
-
 1. **Web Data Retrieval & Harmonization (`data_processing.py`):**
    - Fetches `patient_demographics.csv` and `cmp.json` directly from the course web endpoints.
    - Matches patient records and extracts serum creatinine values from CMP lab panels.
